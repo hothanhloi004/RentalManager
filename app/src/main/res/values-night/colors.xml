@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Surface / Background (Dark Mode override) -->
+    <color name="surface">#0F172A</color>
+    <color name="surface_variant">#1E293B</color>
+    <color name="on_surface">#F8FAFC</color>
+    <color name="on_surface_variant">#94A3B8</color>
+    <color name="background">#0F172A</color>
+    <color name="outline">#475569</color>
+    <color name="outline_variant">#334155</color>
+    <color name="divider_color">#334155</color>
+
+    <!-- Card / Icon backgrounds – darker for night -->
+    <color name="bg_icon_purple">#2D2A5E</color>
+    <color name="bg_icon_red">#4A1E1E</color>
+    <color name="bg_icon_orange">#4A2E0A</color>
+    <color name="bg_icon_teal">#0F3039</color>
+
+    <!-- Alert backgrounds (dark) -->
+    <color name="bg_alert_red">#3D1010</color>
+    <color name="text_alert_red">#FCA5A5</color>
+    <color name="bg_alert_orange">#3D2210</color>
+    <color name="text_alert_orange">#FCD34D</color>
+
+    <!-- Status badge backgrounds (dark) -->
+    <color name="status_vacant_bg">#1E293B</color>
+    <color name="status_active_bg">#14532D</color>
+    <color name="status_pending_bg">#431407</color>
+    <color name="status_overdue_bg">#450A0A</color>
+    <color name="status_paid_bg">#451A03</color>
+    <color name="status_maintenance_bg">#451A03</color>
+</resources>

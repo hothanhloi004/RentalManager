@@ -1,0 +1,89 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.RentalManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="fontFamily">@font/inter</item>
+
+        <!-- Primary -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
+
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/on_tertiary_container</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="colorOnErrorContainer">@color/on_error_container</item>
+
+        <!-- Surface / Background -->
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+
+        <!-- Typography -->
+
+        <!-- Shape (using default Material3 shapes) -->
+
+        <!-- Elevation overlay -->
+        <item name="elevationOverlayEnabled">true</item>
+
+    </style>
+
+    <style name="Theme.RentalManager" parent="Base.Theme.RentalManager" />
+
+    <!-- Splash Screen theme - ẩn action bar hoàn toàn -->
+    <style name="Theme.RentalManager.NoActionBar" parent="Base.Theme.RentalManager">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Card style -->
+    <style name="Widget.RentalManager.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <!-- Stat card - clickable -->
+    <style name="Widget.RentalManager.StatCard" parent="Widget.RentalManager.Card">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <!-- Button rounded -->
+    <style name="Widget.RentalManager.Button.Filled" parent="Widget.Material3.Button">
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- Chip filter -->
+    <style name="Widget.RentalManager.FilterChip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipCornerRadius">20dp</item>
+    </style>
+
+    <!-- TextInputLayout outlined -->
+    <style name="Widget.RentalManager.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+</resources>

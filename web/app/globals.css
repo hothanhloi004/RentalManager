@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #6366f1;
+  --primary-dark: #4f46e5;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.map-container {
+  height: calc(100vh - 80px);
+}
+
+/* Leaflet override for dark mode */
+.leaflet-container {
+  background: #1e1b4b !important;
+  font-family: inherit !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #1e1b4b !important;
+  color: white !important;
+  border: 1px solid #6366f1 !important;
+  border-radius: 12px !important;
+}
+
+.leaflet-popup-tip {
+  background: #6366f1 !important;
+}

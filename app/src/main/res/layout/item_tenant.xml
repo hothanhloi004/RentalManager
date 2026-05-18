@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:background="@color/surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Avatar tròn với icon người -->
+        <ImageView
+            android:id="@+id/tvAvatar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_circle_purple"
+            android:src="@drawable/ic_person"
+            android:padding="12dp"
+            app:tint="@color/primary"/>
+
+        <!-- Thông tin Khách thuê -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nguyễn Văn An"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/on_surface"/>
+
+            <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0901234567"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/on_surface_variant"/>
+
+            <!-- Ở bản thiết kế là Phòng, nhưng Data là CCCD, hiển thị màu xanh/tím để giả lập -->
+            <TextView
+                android:id="@+id/tvCccd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CCCD: 0123456789"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/primary"/>
+        </LinearLayout>
+
+        <!-- Nút Action (Giữ là More icon vì logic Java đang làm Edit/Delete flow) -->
+        <ImageView
+            android:id="@+id/btnMore"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:padding="6dp"
+            android:src="@android:drawable/ic_menu_call"
+            app:tint="@color/primary"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+    </LinearLayout>
+
+    <!-- Đường viền mỏng ngang cách các dòng list -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="@color/divider_color"/>
+
+</LinearLayout>

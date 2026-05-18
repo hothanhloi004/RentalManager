@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="0dp"
+    app:cardBackgroundColor="?attr/colorSurface">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Nội dung chính -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Dòng 1: Tên phòng + Trạng thái -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/txtRoomName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/on_surface"/>
+
+                <!-- Nhãn trạng thái (Chip) -->
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/txtRoomStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:clickable="false"
+                    android:focusable="false"
+                    app:chipMinHeight="24dp"
+                    app:chipCornerRadius="12dp"
+                    app:chipStrokeWidth="0dp"
+                    app:ensureMinTouchTargetSize="false"
+                    android:layout_margin="0dp"/>
+            </LinearLayout>
+
+            <!-- Dòng 2: Giá phòng -->
+            <TextView
+                android:id="@+id/txtRoomPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:layout_marginTop="6dp"/>
+
+            <!-- Dòng 3: Khách thuê -->
+            <TextView
+                android:id="@+id/txtTenant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/on_surface"
+                android:layout_marginTop="10dp"/>
+
+            <!-- Dòng 4: Hợp đồng từ ngày -->
+            <TextView
+                android:id="@+id/txtContractInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/primary"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:id="@+id/txtRoomNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/on_surface_variant"
+                android:layout_marginTop="4dp"
+                android:fontStyle="italic"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color"
+            android:layout_marginHorizontal="16dp"/>
+
+        <!-- Dải Nút bên dưới (Fake actions layout for visual match) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="16dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/btnViewDetail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@android:drawable/ic_menu_view"
+                    app:tint="@color/on_surface_variant"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Xem chi tiết"
+                    android:textSize="12sp"
+                    android:textColor="@color/on_surface"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnEditRoom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@android:drawable/ic_menu_edit"
+                    app:tint="@color/on_surface_variant"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Sửa"
+                    android:textSize="12sp"
+                    android:textColor="@color/on_surface"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnDeleteRoom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@android:drawable/ic_menu_delete"
+                    app:tint="#EF4444"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Xóa"
+                    android:textSize="12sp"
+                    android:textColor="#EF4444"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

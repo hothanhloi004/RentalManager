@@ -1,0 +1,506 @@
+{
+  "Hà Nội": {
+    "avgPrice": 4159667,
+    "count": 30,
+    "min": 1300000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Hồ Chí Minh": {
+    "avgPrice": 3433000,
+    "count": 30,
+    "min": 1100000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Đà Nẵng": {
+    "avgPrice": 3779667,
+    "count": 30,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Hải Phòng": {
+    "avgPrice": 3377407,
+    "count": 27,
+    "min": 1200000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Cần Thơ": {
+    "avgPrice": 3492500,
+    "count": 28,
+    "min": 1500000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Bình Dương": {
+    "avgPrice": 2989667,
+    "count": 30,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Đồng Nai": {
+    "avgPrice": 3016957,
+    "count": 23,
+    "min": 1100000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Khánh Hòa": {
+    "avgPrice": 3392222,
+    "count": 27,
+    "min": 1200000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Bà Rịa - Vũng Tàu": {
+    "avgPrice": 3298000,
+    "count": 30,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Bình Thuận": {
+    "avgPrice": 2892222,
+    "count": 27,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Lâm Đồng": {
+    "avgPrice": 3392759,
+    "count": 29,
+    "min": 1200000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Long An": {
+    "avgPrice": 2941250,
+    "count": 24,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Tiền Giang": {
+    "avgPrice": 3331053,
+    "count": 19,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Bến Tre": {
+    "avgPrice": 3326538,
+    "count": 26,
+    "min": 1200000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Vĩnh Long": {
+    "avgPrice": 3103913,
+    "count": 23,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "An Giang": {
+    "avgPrice": 4653636,
+    "count": 11,
+    "min": 1100000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Kiên Giang": {
+    "avgPrice": 3330385,
+    "count": 26,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Bạc Liêu": {
+    "avgPrice": 4717273,
+    "count": 11,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Cà Mau": {
+    "avgPrice": 4409500,
+    "count": 20,
+    "min": 1200000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Sóc Trăng": {
+    "avgPrice": 4449167,
+    "count": 12,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Trà Vinh": {
+    "avgPrice": 4644545,
+    "count": 11,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Hậu Giang": {
+    "avgPrice": 3997857,
+    "count": 14,
+    "min": 1280000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Đồng Tháp": {
+    "avgPrice": 3319000,
+    "count": 20,
+    "min": 1100000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Tây Ninh": {
+    "avgPrice": 4291538,
+    "count": 13,
+    "min": 1200000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Bình Phước": {
+    "avgPrice": 3341250,
+    "count": 24,
+    "min": 1000000,
+    "max": 11000000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Đắk Lắk": {
+    "avgPrice": 3132917,
+    "count": 24,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Đắk Nông": {
+    "avgPrice": 4340833,
+    "count": 12,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Gia Lai": {
+    "avgPrice": 3049500,
+    "count": 20,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Kon Tum": {
+    "avgPrice": 5009000,
+    "count": 10,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Ninh Thuận": {
+    "avgPrice": 3316111,
+    "count": 18,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Phú Yên": {
+    "avgPrice": 3038077,
+    "count": 26,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Bình Định": {
+    "avgPrice": 3137143,
+    "count": 28,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Quảng Ngãi": {
+    "avgPrice": 2939600,
+    "count": 25,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Quảng Nam": {
+    "avgPrice": 3157308,
+    "count": 26,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Thừa Thiên Huế": {
+    "avgPrice": 3466296,
+    "count": 27,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Quảng Trị": {
+    "avgPrice": 4735455,
+    "count": 11,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Quảng Bình": {
+    "avgPrice": 4565833,
+    "count": 12,
+    "min": 1500000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Hà Tĩnh": {
+    "avgPrice": 4662727,
+    "count": 11,
+    "min": 1200000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Nghệ An": {
+    "avgPrice": 3011154,
+    "count": 26,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Thanh Hóa": {
+    "avgPrice": 3413810,
+    "count": 21,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Ninh Bình": {
+    "avgPrice": 4717273,
+    "count": 11,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Nam Định": {
+    "avgPrice": 4536316,
+    "count": 19,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Thái Bình": {
+    "avgPrice": 4357500,
+    "count": 12,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Hà Nam": {
+    "avgPrice": 2886000,
+    "count": 30,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Hưng Yên": {
+    "avgPrice": 4146471,
+    "count": 17,
+    "min": 1200000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Hải Dương": {
+    "avgPrice": 4564500,
+    "count": 20,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Bắc Ninh": {
+    "avgPrice": 3481364,
+    "count": 22,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Vĩnh Phúc": {
+    "avgPrice": 3237619,
+    "count": 21,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Quảng Ninh": {
+    "avgPrice": 3544500,
+    "count": 20,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Bắc Giang": {
+    "avgPrice": 4507500,
+    "count": 12,
+    "min": 1500000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Thái Nguyên": {
+    "avgPrice": 4826364,
+    "count": 11,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Phú Thọ": {
+    "avgPrice": 5008182,
+    "count": 11,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Hòa Bình": {
+    "avgPrice": 4564500,
+    "count": 20,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Sơn La": {
+    "avgPrice": 4564500,
+    "count": 20,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Điện Biên": {
+    "avgPrice": 4564500,
+    "count": 20,
+    "min": 1500000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Lai Châu": {
+    "avgPrice": 4894500,
+    "count": 20,
+    "min": 1600000,
+    "max": 10000000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Yên Bái": {
+    "avgPrice": 4894500,
+    "count": 20,
+    "min": 1600000,
+    "max": 10000000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Lào Cai": {
+    "avgPrice": 4894500,
+    "count": 20,
+    "min": 1600000,
+    "max": 10000000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Tuyên Quang": {
+    "avgPrice": 4314500,
+    "count": 20,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Hà Giang": {
+    "avgPrice": 5009000,
+    "count": 10,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Cao Bằng": {
+    "avgPrice": 4314500,
+    "count": 20,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Bắc Kạn": {
+    "avgPrice": 4314500,
+    "count": 20,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  },
+  "Lạng Sơn": {
+    "avgPrice": 4314500,
+    "count": 20,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable",
+    "source": "crawled"
+  }
+}

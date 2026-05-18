@@ -1,0 +1,27 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. Cho phép đọc danh sách phòng công khai (áp dụng cho cả collectionGroup)
+    match /{path=**}/rooms/{roomId} {
+      allow read: if true;
+    }
+
+    // 2. Quản lý dữ liệu người dùng (Chủ nhà)
+    // Cho phép chủ nhà quản lý toàn bộ dữ liệu dưới /users/{userId}/...
+    match /users/{userId}/{document=**} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // 3. Quản lý yêu cầu thuê phòng (Inquiries)
+    match /inquiries/{landlordId}/requests/{requestId} {
+      allow create: if true;
+      allow read, update, delete: if request.auth != null && request.auth.uid == landlordId;
+    }
+
+    // 4. Mặc định: Cho phép những người đã đăng nhập thao tác với các vùng dữ liệu khác
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

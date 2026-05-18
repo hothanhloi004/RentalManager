@@ -1,0 +1,58 @@
+{
+  "Hồ Chí Minh": {
+    "avgPrice": 3389667,
+    "count": 30,
+    "min": 1100000,
+    "max": 8500000,
+    "trend": "stable"
+  },
+  "Hà Nội": {
+    "avgPrice": 4122258,
+    "count": 31,
+    "min": 1300000,
+    "max": 8500000,
+    "trend": "stable"
+  },
+  "Đà Nẵng": {
+    "avgPrice": 3779667,
+    "count": 30,
+    "min": 1600000,
+    "max": 8500000,
+    "trend": "stable"
+  },
+  "Cần Thơ": {
+    "avgPrice": 3510000,
+    "count": 29,
+    "min": 1500000,
+    "max": 8500000,
+    "trend": "stable"
+  },
+  "Bình Dương": {
+    "avgPrice": 2989667,
+    "count": 30,
+    "min": 1000000,
+    "max": 8500000,
+    "trend": "stable"
+  },
+  "Đồng Nai": {
+    "avgPrice": 3016957,
+    "count": 23,
+    "min": 1100000,
+    "max": 8500000,
+    "trend": "stable"
+  },
+  "Khánh Hòa": {
+    "avgPrice": 3503103,
+    "count": 29,
+    "min": 1200000,
+    "max": 8500000,
+    "trend": "stable"
+  },
+  "Hải Phòng": {
+    "avgPrice": 3435357,
+    "count": 28,
+    "min": 1200000,
+    "max": 8500000,
+    "trend": "stable"
+  }
+}

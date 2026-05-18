@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="invoices" path="invoices/"/>
+    <files-path name="tenant_docs" path="tenant_docs/"/>
+    <files-path name="room_photos" path="room_photos/"/>
+</paths>

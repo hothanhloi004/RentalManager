@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="0dp"
+    app:cardBackgroundColor="?attr/colorSurface">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtBillTitle"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/on_surface"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/txtBillStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:clickable="false"
+                android:focusable="false"
+                app:chipMinHeight="24dp"
+                app:chipCornerRadius="12dp"
+                app:chipStrokeWidth="0dp"
+                app:ensureMinTouchTargetSize="false"
+                android:layout_margin="0dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtTenantName"
+            android:textSize="13sp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/on_surface_variant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Tổng tiền & Đã trả -->
+        <TextView
+            android:id="@+id/txtTotalPaid"
+            android:layout_marginTop="10dp"
+            android:textSize="13sp"
+            android:textColor="@color/on_surface_variant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Còn nợ -->
+        <TextView
+            android:id="@+id/txtRemaining"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Due date -->
+        <TextView
+            android:id="@+id/txtBillDue"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:textSize="12sp"
+            android:textColor="@color/on_surface_variant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color"/>
+
+        <!-- Action row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPay"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:text="@string/bill_item_pay"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:insetLeft="0dp"
+                android:insetRight="0dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:layout_marginEnd="8dp"
+                app:cornerRadius="8dp"
+                app:iconPadding="4dp"
+                app:iconGravity="textStart"
+                app:icon="@drawable/ic_payments"
+                app:iconTint="@color/white"
+                app:iconSize="16dp"
+                android:backgroundTint="@color/primary"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnViewDetail"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:text="@string/bill_item_view_detail"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:textColor="@color/on_surface"
+                app:icon="@drawable/ic_electric_bolt"
+                app:iconTint="@color/on_surface"
+                app:iconSize="16dp"
+                app:cornerRadius="8dp"/>
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="8dp"
+                android:src="@android:drawable/ic_menu_share"
+                android:padding="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/on_surface_variant"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

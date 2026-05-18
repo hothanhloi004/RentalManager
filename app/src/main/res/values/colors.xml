@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary - Deep Indigo (#6366F1 based on new design) -->
+    <color name="primary">#6366F1</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#EEEDFF</color>
+    <color name="on_primary_container">#241CBA</color>
+    <color name="primary_dark">#4F46E5</color>
+
+    <!-- Secondary - Teal -->
+    <color name="secondary">#0891B2</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#CFFAFE</color>
+    <color name="on_secondary_container">#0C4A6E</color>
+
+    <!-- Tertiary - Amber -->
+    <color name="tertiary">#D97706</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="tertiary_container">#FEF3C7</color>
+    <color name="on_tertiary_container">#78350F</color>
+
+    <!-- Error/Debt -->
+    <color name="error">#E53935</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="error_container">#FFEBEE</color>
+    <color name="on_error_container">#C62828</color>
+
+    <!-- Success/Revenue -->
+    <color name="success">#16A34A</color>
+    <color name="on_success">#FFFFFF</color>
+    <color name="success_container">#E8F5E9</color>
+    <color name="on_success_container">#1B5E20</color>
+
+    <!-- Warning -->
+    <color name="warning">#F97316</color>
+    <color name="warning_container">#FFF7ED</color>
+
+    <!-- Surface / Background (Light) -->
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="on_surface">#1E293B</color>
+    <color name="on_surface_variant">#64748B</color>
+    <color name="background">#EFF2F6</color>
+    <color name="outline">#E2E8F0</color>
+    <color name="outline_variant">#F1F5F9</color>
+
+    <!-- Divider -->
+    <color name="divider_color">#E5E7EB</color>
+
+    <!-- Dashboard Icon/Badge Background Colors -->
+    <color name="bg_icon_purple">#EEEDFF</color>
+    <color name="bg_icon_red">#FFEBEE</color>
+    <color name="bg_icon_orange">#FFF7E6</color>
+    <color name="bg_icon_teal">#E0F2F1</color>
+    <color name="icon_orange">#F57C00</color>
+    <color name="icon_teal">#00897B</color>
+
+    <!-- Dashboard Cảnh Báo -->
+    <color name="bg_alert_red">#FDF2F4</color>
+    <color name="text_alert_red">#D32F2F</color>
+    <color name="bg_alert_orange">#FFF9F4</color>
+    <color name="text_alert_orange">#E65100</color>
+
+    <!-- Status Badge Colors (Needed for Adapters) -->
+    <color name="status_vacant">#64748B</color>
+    <color name="status_vacant_bg">#F1F5F9</color>
+    
+    <color name="status_active">#16A34A</color>
+    <color name="status_active_bg">#DCFCE7</color>
+    
+    <color name="status_pending">#F97316</color>
+    <color name="status_pending_bg">#FFF7ED</color>
+
+    <color name="status_overdue">#E53935</color>
+    <color name="status_overdue_bg">#FFEBEE</color>
+
+    <color name="status_paid">#D97706</color>
+    <color name="status_paid_bg">#FEF3C7</color>
+
+    <color name="status_maintenance">#D97706</color>
+    <color name="status_maintenance_bg">#FEF3C7</color>
+</resources>
